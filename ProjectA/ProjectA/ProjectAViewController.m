@@ -6,13 +6,13 @@
 //  Copyright © 2016年 wyzc. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "ProjectAViewController.h"
 
-@interface ViewController ()
+@interface ProjectAViewController ()
 
 @end
 
-@implementation ViewController
+@implementation ProjectAViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		700651BF1DD47E61006C31D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 700651BE1DD47E61006C31D9 /* main.m */; };
-		700651C21DD47E61006C31D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 700651C11DD47E61006C31D9 /* AppDelegate.m */; };
-		700651C51DD47E61006C31D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 700651C41DD47E61006C31D9 /* ViewController.m */; };
+		700651C21DD47E61006C31D9 /* ProjectAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 700651C11DD47E61006C31D9 /* ProjectAAppDelegate.m */; };
+		700651C51DD47E61006C31D9 /* ProjectAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 700651C41DD47E61006C31D9 /* ProjectAViewController.m */; };
 		700651C81DD47E61006C31D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 700651C61DD47E61006C31D9 /* Main.storyboard */; };
 		700651CA1DD47E61006C31D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 700651C91DD47E61006C31D9 /* Assets.xcassets */; };
 		700651CD1DD47E61006C31D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 700651CB1DD47E61006C31D9 /* LaunchScreen.storyboard */; };
@@ -18,10 +18,10 @@
 /* Begin PBXFileReference section */
 		700651BA1DD47E61006C31D9 /* ProjectA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		700651BE1DD47E61006C31D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		700651C01DD47E61006C31D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		700651C11DD47E61006C31D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		700651C31DD47E61006C31D9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		700651C41DD47E61006C31D9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		700651C01DD47E61006C31D9 /* ProjectAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProjectAAppDelegate.h; sourceTree = "<group>"; };
+		700651C11DD47E61006C31D9 /* ProjectAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProjectAAppDelegate.m; sourceTree = "<group>"; };
+		700651C31DD47E61006C31D9 /* ProjectAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProjectAViewController.h; sourceTree = "<group>"; };
+		700651C41DD47E61006C31D9 /* ProjectAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProjectAViewController.m; sourceTree = "<group>"; };
 		700651C71DD47E61006C31D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		700651C91DD47E61006C31D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		700651CC1DD47E61006C31D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,10 +58,10 @@
 		700651BC1DD47E61006C31D9 /* ProjectA */ = {
 			isa = PBXGroup;
 			children = (
-				700651C01DD47E61006C31D9 /* AppDelegate.h */,
-				700651C11DD47E61006C31D9 /* AppDelegate.m */,
-				700651C31DD47E61006C31D9 /* ViewController.h */,
-				700651C41DD47E61006C31D9 /* ViewController.m */,
+				700651C01DD47E61006C31D9 /* ProjectAAppDelegate.h */,
+				700651C11DD47E61006C31D9 /* ProjectAAppDelegate.m */,
+				700651C31DD47E61006C31D9 /* ProjectAViewController.h */,
+				700651C41DD47E61006C31D9 /* ProjectAViewController.m */,
 				700651C61DD47E61006C31D9 /* Main.storyboard */,
 				700651C91DD47E61006C31D9 /* Assets.xcassets */,
 				700651CB1DD47E61006C31D9 /* LaunchScreen.storyboard */,
@@ -150,8 +150,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				700651C51DD47E61006C31D9 /* ViewController.m in Sources */,
-				700651C21DD47E61006C31D9 /* AppDelegate.m in Sources */,
+				700651C51DD47E61006C31D9 /* ProjectAViewController.m in Sources */,
+				700651C21DD47E61006C31D9 /* ProjectAAppDelegate.m in Sources */,
 				700651BF1DD47E61006C31D9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +309,7 @@
 				700651D31DD47E61006C31D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

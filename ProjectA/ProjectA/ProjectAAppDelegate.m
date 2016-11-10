@@ -6,13 +6,13 @@
 //  Copyright © 2016年 wyzc. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "ProjectAAppDelegate.h"
 
-@interface AppDelegate ()
+@interface ProjectAAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation ProjectAAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
