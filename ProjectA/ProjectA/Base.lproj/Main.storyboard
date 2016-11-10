@@ -24,13 +24,22 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7bj-Xi-rcg">
+                                <color key="backgroundColor" red="0.95686274510000002" green="0.14921480300000001" blue="0.132241895" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="4lp-0F-ihp"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="7bj-Xi-rcg" secondAttribute="trailing" id="1iL-zF-TWX"/>
                             <constraint firstItem="heE-tE-U6H" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="100" id="5li-9L-Z4k"/>
+                            <constraint firstItem="7bj-Xi-rcg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="K6e-hJ-aiY"/>
                             <constraint firstItem="heE-tE-U6H" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="100" id="UxZ-xA-RmM"/>
                             <constraint firstAttribute="trailingMargin" secondItem="heE-tE-U6H" secondAttribute="trailing" constant="100" id="nvZ-td-Svb"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="heE-tE-U6H" secondAttribute="bottom" constant="100" id="qOJ-kR-JEy"/>
+                            <constraint firstItem="7bj-Xi-rcg" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="uQm-Gp-GTM"/>
                         </constraints>
                     </view>
                 </viewController>
